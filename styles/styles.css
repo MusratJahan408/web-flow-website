@@ -39,8 +39,9 @@ body {
 
 /* btn hover  */
 .btn-primary:hover {
-    background-color: goldenrod;
-    color: black;
+    background-color: white;
+    color: #4E47FF;
+    border: 2px solid #4E47FF;
     cursor: pointer;
 }
 
@@ -90,7 +91,7 @@ nav {
 /* main styles  */
 
 main {
-    /* max-width: 1140px; */
+
     width: 80%;
     margin: 0 auto;
 }
@@ -240,9 +241,6 @@ main {
     width: 630px;
 }
 
-/* input[type="text"],
-input[type="email"],
-input[type="submit"], */
 input,
 textarea {
 
