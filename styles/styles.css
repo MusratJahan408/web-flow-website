@@ -89,7 +89,8 @@ nav {
 /* main styles  */
 
 main {
-    max-width: 1468px;
+    /* max-width: 1140px; */
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -234,11 +235,18 @@ main {
     font-weight: 500;
 }
 
-input[type="text"],
+.news-form {
+    width: 630px;
+}
+
+/* input[type="text"],
 input[type="email"],
+input[type="submit"], */
+input,
 textarea {
+
     width: 100%;
-    padding: 20px 32px;
+    padding: 20px 30px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
     color: rgba(0, 0, 0, 0.50);
@@ -247,9 +255,11 @@ textarea {
     margin-bottom: 20px;
 }
 
-.news-btn {
+
+.submit-btn {
+    text-align: center;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 30px;
 }
 
 /* footer styles */
